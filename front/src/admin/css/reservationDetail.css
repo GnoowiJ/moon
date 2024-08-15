@@ -1,0 +1,28 @@
+.rev-detail-area {
+  width: 100%;
+  max-width: 1000px;
+  background-color: gray;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rev-detail-status-area {
+  width: 80%;
+  min-width: 320px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: 3.5px solid #333;
+  border-radius: 30px;
+}
+
+.rev-detail-back-btn-area {
+  background-color: white;
+  text-align: center;
+  border: 4px solid gold;
+  padding: 20px 60px;
+  border-radius: 30px;
+}

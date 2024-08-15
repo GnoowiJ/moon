@@ -1,0 +1,277 @@
+/* 공통 */
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+Link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header */
+.header-main {
+  width: 100%;
+}
+
+.header-background {
+  width: 100%;
+  position: absolute;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  left: 0;
+  padding: 50px 70px;
+  z-index: 4;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.header-logo {
+  width: 81px;
+  height: 89px;
+}
+
+.header-nav {
+  display: flex;
+  font-size: 16px;
+  gap: 2rem;
+}
+
+.nav-list {
+  width: 100px;
+  height: 30px;
+  color: #614a35;
+  font-size: 14px;
+}
+.nav-list > *{
+  margin-bottom: 10px;
+}
+.show{
+  opacity: 1;
+  transition: all .7s;
+}
+.none{
+  opacity: 0;
+  transition: all .7s;
+}
+.nav-list:hover .none{
+  display: block;
+  opacity: 1;
+  transition: all .7s;
+}
+.nav-2{
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.nav-2-box{
+  display: flex;
+  gap: 9px;
+}
+
+.nav-list a {
+  display: block;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 250px 185px 50px;
+  color: #614a35;
+  background-color: #fff;
+}
+
+.footer-title {
+  font-size: 25px;
+}
+
+.footer-tel {
+  font-size: 25px;
+}
+
+/* outlet */
+
+.outlet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1540px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* title */
+.title {
+  position: relative;
+  width: 100%;
+}
+
+.title img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.title-text {
+  position: absolute;
+  bottom: 128px;
+  left: 190px;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 애니메이션 클래스 */
+.animation-left,
+.animation-right,
+.animation-up,
+.animation-left-two,
+.animation-right-two {
+  opacity: 0; /* 기본 상태에서 보이지 않도록 설정 */
+}
+
+.animation-left.fade-in {
+  animation: fadeInFromLeft 1s ease-in forwards;
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-right.fade-in {
+  animation: fadeInFromRight 1s ease-in forwards;
+}
+
+@keyframes fadeInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-up.fade-in {
+  animation: fadeInFromUp 1s ease-in forwards;
+}
+
+@keyframes fadeInFromUp {
+  from {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-left-two.fade-in {
+  animation: fadeInFromLefttwo 1s ease-in forwards;
+}
+
+@keyframes fadeInFromLefttwo {
+  from {
+    opacity: 0;
+    transform: translateX(-90%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animation-right-two.fade-in {
+  animation: fadeInFromRighttwo 1s ease-in forwards;
+}
+
+@keyframes fadeInFromRighttwo {
+  from {
+    opacity: 0;
+    transform: translateX(90%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+}
+
+/* 예시 CSS */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  border-radius: 8px;
+  max-width: 1465px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  left: 101%;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  z-index: 2;
+}
+
+.modal-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination-bullet{
+  --swiper-theme-color: #fff;
+}

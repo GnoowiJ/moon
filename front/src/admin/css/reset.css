@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: none;
+}
+
+img {
+  display: block;
+  /* vertical-align: bottom; */
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  font-family: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

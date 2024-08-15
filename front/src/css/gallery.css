@@ -1,0 +1,122 @@
+.gallery-img-box{
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+}
+.gallery-info-text{
+  font-size: 20px;
+  text-align: center;
+  margin: 7rem 0 5rem;
+}
+.gallery-img-content{
+  width: 100%;
+  max-width: 1540px;
+  display: grid;
+  gap: 20px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gallery-img-link{
+  width: 100%;
+  height: 400px;
+  max-width: 500px;
+  cursor: default;
+}
+.gallery-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-btn{
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 30px auto;
+  border: 1px solid #614a35;
+  color: #614a35;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.gallery-btn:hover{
+  cursor: pointer;
+  background-color: #614a35;
+  color: #fff;
+}
+
+/* gallery img upload */
+.modal-up-box{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  /* opacity: .7; */
+  /* background-color: #000; */
+}
+.modal-up-content{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+  text-align: center;
+  top: 30%;
+
+}
+.modal-upload-box{
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #614a35;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+}
+.upload{
+  width: 100%;
+  line-height: 50px;
+}
+.up-input{
+  margin: 20px auto;
+  /* background-color: #614a35; */
+  color: #614a35;
+}
+
+.last-input{
+  height: 200px;
+  width: 300px;
+  display: block;
+  border: 1px solid #614a35;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.up-img{
+  display: none;
+}
+.input-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #fff;
+}
+.up-btn{
+  width: 150px;
+  height: 35px;
+  border: 1px solid #614a35;
+  border-radius: 3px;
+  color: #614a35;
+  margin: 30px 10px;
+}
+.up-btn:hover{
+  background-color: #614a35;
+  color: #fff;
+}
+input[type='text']{
+  /* border: 1px solid #614a35; */
+  border-width: 0 0 1px ;
+  outline: none;
+}

@@ -1,0 +1,32 @@
+.outsideview-container{
+    width: 100%;
+    max-width: calc(1540px + 30px);
+    display: flex;
+    flex-direction: column;
+    padding: 250px 15px 0;
+    margin: 0 auto;
+}
+
+.view-img-info{
+    margin-top: 18px;
+    justify-content: center;
+    text-align: right;
+    font-size: 13px;
+    color: #614a35;
+}
+
+
+.outsideview-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.outsideview-video video{
+    margin-top: 250px;
+    width: 100%;
+    max-width: 1542px;
+}
+
+

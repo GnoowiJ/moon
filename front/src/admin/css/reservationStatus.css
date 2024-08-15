@@ -1,0 +1,195 @@
+.reservation-status-outlet {
+  width: 83%;
+  margin: 30px auto 20px;
+}
+
+.reservation-status-arrow {
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.reservation-status-arrow:hover {
+  cursor: pointer;
+  color: var(--color-red);
+}
+
+.reservation-status-title {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.reservation-status-statistics {
+  text-align: center;
+}
+
+.reservation-status-statistics,
+.reservation-status-map {
+  border: 2px solid #ddd;
+  padding: 5px 50px;
+  width: 85%;
+  min-width: 580px;
+  margin: 0 auto 40px;
+}
+
+.reservation-status-statistics-title {
+  border-bottom: 2px solid var(--color-green);
+  width: 350px;
+  margin: 10px auto 20px;
+}
+
+.reservation-status-statistics-info {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.reservation-status-statistics-info>p {
+  margin-bottom: 5px;
+}
+
+.reservation-status-trow-title {
+  width: 60px;
+  text-align: center;
+  background: var(--color-green);
+  color: #fff;
+}
+
+.reservation-status-trow-content {
+  width: 90px;
+  background: var(--color-green);
+}
+
+.reservation-status-trow-title,
+.reservation-status-trow-td-content {
+  height: 50px;
+}
+
+.reservation-status-trow-td-content {
+  width: 50%;
+  position: relative;
+}
+
+.reservation-status-trow-td-username {
+  display: block;
+  position: absolute;
+  top: calc(50% - 10.25px);
+  left: 0;
+  z-index: 1;
+  width: 100px;
+  text-align: left;
+}
+
+.rev-start-date {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rev-end-date {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.highlight-today {
+  background: #d8d8d8;
+}
+
+.reservation-status-btn-return {
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  border: 4px solid gold;
+}
+
+.reservation-status-map {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.reservation-status-map>div {
+  display: flex;
+}
+
+.reservation-status-map-rect {
+  width: 20px;
+  height: 20px;
+}
+
+.rev-status-beforepay,
+.chart-beforepay {
+  background-color: #ff3b3b;
+}
+
+.rev-status-beforepay {
+  color: #fff;
+  font-weight: 700;
+}
+
+.rev-status-afterpay,
+.chart-afterpay {
+  background-color: #ffaa5f;
+}
+
+.rev-status-beforecheckin,
+.chart-beforeCheckIn {
+  background-color: #fbff00;
+}
+
+.rev-status-aftercheckin,
+.chart-afterCheckIn {
+  background-color: #7fea64;
+}
+
+.rev-status-beforecheckout,
+.chart-beforeCheckOut {
+  background-color: #3e88ff;
+}
+
+.rev-status-aftercheckout,
+.chart-afterCheckOut {
+  background-color: #4d31c8;
+}
+
+.rev-status-aftercheckout {
+  color: #fff;
+  font-weight: 700;
+}
+
+.rev-status-noreservation,
+.chart-noReservation {
+  background-color: #9b15d9;
+}
+
+.rev-status-noreservation {
+  color: #fff;
+  font-weight: 700;
+}
+
+.reservation-status-statistics-info>li {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  margin-bottom: 8px;
+}
+
+.reservation-status-statistics-list {
+  width: 20%;
+  min-width: 150px;
+}
+
+.reservation-status-statistics-chart-area {
+  width: 70%;
+  max-width: 1500px;
+  min-width: 310px;
+}
+
+.reservation-status-statistics-chart-area>div {
+  border-radius: 20px;
+}
+
+.reservation-status-statistics-chart-area p {
+  width: 50px;
+  margin: 0 auto;
+}
