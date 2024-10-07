@@ -20,7 +20,7 @@ React - 펜션 예약 사이트
 - **IDE** : VSCode
 - **Framework** : Express
 - **Database** : MySQL
-- **Liblary** : React-Redux, Day.js, Swiper
+- **Library** : React-Redux, Day.js, Swiper
 
 ## 📌 주요 기능
 #### 예약하기 
